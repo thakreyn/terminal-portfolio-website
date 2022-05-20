@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Thakre | Terminal</title>
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <!-- Terminal holds the entered text history -->
+    <div id="terminal">
+        <!-- separator = before -->
+        <a id="separator"></a>
+    </div>
+
+    <div id="command-window" onclick="getElementById('textbox').focus()">
+        
+        <textarea name="textbox" id="textbox"
+        onkeypress="type(this, event)"
+        onkeyup="type(this,event)"
+        onkeydown="type(this,event); moveCursor(this.value.length, event)"
+        autofocus
+        ></textarea>
+
+        <!-- Prompt Box that takes input -->
+        <div id="prompt-line">
+            <span id="input"></span><b class="cursor" id="cursor">█</b>
+        </div>
+
+    </div>
+
+    <script src="scripts/cursor.js"></script> 
+    <script src="scripts/data.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
