@@ -13,20 +13,20 @@
     <!-- Terminal holds the entered text history -->
     <div id="terminal">
         <!-- separator = before -->
-        <a id="separator"></a>
+        <a id="before"></a>
     </div>
 
     <div id="command-window" onclick="getElementById('textbox').focus()">
         
         <textarea name="textbox" id="textbox"
-        onkeypress="type(this, event)"
-        onkeyup="type(this,event)"
-        onkeydown="type(this,event); moveCursor(this.value.length, event)"
+        onkeypress="typeToLine(this, event)"
+        onkeyup="typeToLine(this,event)"
+    onkeydown="typeToLine(this,event); moveCursor(this.value.length, event)"
         autofocus
         ></textarea>
 
         <!-- Prompt Box that takes input -->
-        <div id="prompt-line">
+        <div id="liner">
             <span id="input"></span><b class="cursor" id="cursor">█</b>
         </div>
 

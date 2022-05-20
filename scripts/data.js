@@ -1,9 +1,9 @@
 // Constants
-var linkedin = "https://www.linkedin.com/in/yashnthakre/";
-var instagram = "https://www.instagram.com/yash.nthakre/";
-var github = "https://github.com/thakreyn/";
-var leetcode = "https://leetcode.com/thakreyn/";
-var email = 'mailto:yash.nthakre@gmail.com';
+const linkedin = "https://www.linkedin.com/in/yashnthakre/";
+const instagram = "https://www.instagram.com/yash.nthakre/";
+const github = "https://github.com/thakreyn/";
+const leetcode = "https://leetcode.com/thakreyn/";
+const email = 'mailto:yash.nthakre@gmail.com';
 
 // Intro (Who is Yash Thakre?)
 whois = [
