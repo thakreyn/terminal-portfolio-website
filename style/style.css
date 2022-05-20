@@ -1,10 +1,21 @@
+/* 
+    Change colors for:
+        1. Background
+        2. Normal Text 
+        3. Keywords
+        4. Hover
+        5. Banner
+*/
+
 body {
     margin: 0;
     padding: 15px 20px;
     min-height: 99%;
     width: 100%;
     min-width: 550px;
+    /* Text color */
     color: #519975;
+    /* Background */
     background: #211D1B;
     font-family: cursor, monospace;
     overflow-x: hidden;
@@ -48,6 +59,7 @@ body {
       opacity: 0;
     }
   }
+
   #command-window {
     cursor: text;
     height: 50px;
@@ -63,6 +75,14 @@ body {
   #liner::before {
     color: #519975;
     content: "visitor:~$";
+  }
+  @keyframes show {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
   /* Cursor End */
   
