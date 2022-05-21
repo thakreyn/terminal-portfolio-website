@@ -89,6 +89,7 @@ function router(cmd){
                 terminal.innerHTML = '<a id="before"></a>';
                 before = document.getElementById("before");
             }, 1);
+            printLines(banner, "", 80)
             break;
         
         case "linkedin":

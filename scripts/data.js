@@ -9,7 +9,7 @@ const email = 'mailto:yash.nthakre@gmail.com';
 whois = [
     "<br>",
     "Hey, I'm Yash Thakre!",
-    "I'm a software developer and content creator, who builds engaging websites like this one",
+    "I'm a software developer and a final year Computer Science major from 🇮🇳",
     "and makes YouTube videos about computer science & software engineering.",
     "After graduating with a Bachelor's in Computer Science, I worked professionally",
     "as a software engineer building enterprise web applications for Fortune 500 companies.",
@@ -26,42 +26,61 @@ whois = [
   ];
 
 // Banner
-banner = [
+banner2 = [
     "<br>",
     '<span class="index">Yash Thakre (YT)</span>',
+    "<br>",
     "██╗░░░██╗░█████╗░░██████╗██╗░░██╗  ████████╗██╗░░██╗░█████╗░██╗░░██╗██████╗░███████╗",
     "╚██╗░██╔╝██╔══██╗██╔════╝██║░░██║  ╚══██╔══╝██║░░██║██╔══██╗██║░██╔╝██╔══██╗██╔════╝",
     "░╚████╔╝░███████║╚█████╗░███████║  ░░░██║░░░███████║███████║█████═╝░██████╔╝█████╗░░",
     "░░╚██╔╝░░██╔══██║░╚═══██╗██╔══██║  ░░░██║░░░██╔══██║██╔══██║██╔═██╗░██╔══██╗██╔══╝░░", 
     "░░░██║░░░██║░░██║██████╔╝██║░░██║  ░░░██║░░░██║░░██║██║░░██║██║░╚██╗██║░░██║███████╗",
     "░░░╚═╝░░░╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝  ░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝",
+    "<br>",
     '<span class="color2">Welcome to my interactive web terminal.</span>',
     "<span class=\"color2\">For a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
     "<br>",
 ];
 
+banner = [
+    "<br>",
+    '<span class="index">Yash Thakre (YT)</span>',
+    "<br>",
+"   ██  ██   █████  ███████ ██   ██     ████████ ██   ██  █████  ██   ██ ██████  ███████",
+"   ██  ██  ██   ██ ██      ██   ██        ██    ██   ██ ██   ██ ██  ██  ██   ██ ██     ",
+"    ████   ███████ ███████ ███████        ██    ███████ ███████ █████   ██████  █████  ",
+"     ██    ██   ██      ██ ██   ██        ██    ██   ██ ██   ██ ██  ██  ██   ██ ██     ",
+"     ██    ██   ██ ███████ ██   ██        ██    ██   ██ ██   ██ ██   ██ ██   ██ ███████",
+"<br>",
+    '<span class="color2">Welcome to my interactive web terminal.</span>',
+    "<span class=\"color2\">For a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
+    "<br>",
+]
+
 
 // Help Commands
 help = [
     "<br>",
-    '<span class="command">whois</span>          Who is Yash Thakre?',
-    '<span class="command">social</span>         Display social networks',
-    '<span class="command">projects</span>       View coding projects',
-    '<span class="command">history</span>        View command history',
-    '<span class="command">help</span>           Open the help menu',
-    '<span class="command">email</span>          Reach me through email',
-    '<span class="command">clear</span>          Clear the terminal',
-    '<span class="command">banner</span>         Display the header',
+    '👦🏻  <span class="command">whois</span>          Who is Yash Thakre?',
+    '🌏  <span class="command">social</span>         Display social networks',
+    '🏗  <span class="command">projects</span>       View coding projects',
+    '🕰  <span class="command">history</span>        View command history',
+    '❓  <span class="command">help</span>           Open the help menu',
+    '📧  <span class="command">email</span>          Reach me through email',
+    '🧹  <span class="command">clear</span>          Clear the terminal',
+    '🇮🇳  <span class="command">banner</span>         Display the header',
     "<br>",
 ];
 
 // Social
 social = [
     "<br>",
+    "Enter the name of any of the following or simply click the links...",
+    "<br>",
     'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/yashnthakre' + "</a>",
     'github         <a href="' + github + '" target="_blank">github/thakreyn' + "</a>",
     'instagram      <a href="' + instagram + '" target="_blank">instagram/yash.nthakre' + '</a>',
-    'leetcode        <a href="' + leetcode + '" target="_blank">leetcode/thakreyn' + '</a>',
+    'leetcode       <a href="' + leetcode + '" target="_blank">leetcode/thakreyn' + '</a>',
     "<br>"
 ];
 

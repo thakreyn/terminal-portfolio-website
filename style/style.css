@@ -7,6 +7,30 @@
         5. Banner
 */
 
+/* 
+  Vs color codes:
+
+
+*/
+
+:root{
+  --bg1 : #211D1B;
+  --text1 : #519975;
+  --command1 : #73ABAD;
+  --cursor-color1: #73ABAD;
+  --index1 : ;
+
+  /* Vs */
+  --bg2 : #1E1E1E;
+  --bg-select2: #2B537A;
+  --text2: #9DDCFE;
+  /* --text2: #D4D4D4; */
+  /* --command2: #D7BA7D; */
+  --command2: #D4D4D4;
+  --cursor-color2: #D7BA7D;
+  --links : #B25FAE;
+}
+
 body {
     margin: 0;
     padding: 15px 20px;
@@ -14,19 +38,23 @@ body {
     width: 100%;
     min-width: 550px;
     /* Text color */
-    color: #519975;
+    color: var(--text2);
     /* Background */
-    background: #211D1B;
+    background: var(--bg2);
     font-family: cursor, monospace;
     overflow-x: hidden;
   }
   ::selection {
-    color: #211830;
-    background-color: #519975;
+    /* color: #211830; */
+    color: var(--bg-select2);
+    /* background-color: #519975; */
+    background-color: var(--text2);
   }
   ::-moz-selection {
-    color: #211830;
-    background-color: #519975;
+    /* color: #211830; */
+    color: var(--bg-select2);
+    /* background-color: #519975; */
+    background-color: var(--text2);
   }
   textarea {
     left: -1000px;
@@ -40,8 +68,10 @@ body {
   /* Cursor Start */
   .cursor {
     font-size: 12px;
-    color: #73ABAD;
-    background-color: #73ABAD;
+    /* color: #73ABAD; */
+    /* background-color: #73ABAD; */
+    color: var(--cursor-color2);
+    background-color: var(--cursor-color2);
     position: relative;
     opacity: 1;
     height: 1.5em;
@@ -63,7 +93,8 @@ body {
   #command-window {
     cursor: text;
     height: 50px;
-    color: #73ABAD;
+    /* color: #73ABAD; */
+    color: var(--cursor-color2);
   }
   #liner {
     line-height: 1.3em;
@@ -73,7 +104,8 @@ body {
     opacity: 0;
   }
   #liner::before {
-    color: #519975;
+    /* color: #519975; */
+    color: var(--text2);
     content: "visitor:~$";
   }
   @keyframes show {
@@ -114,31 +146,40 @@ body {
     color: #DCDCCC;
   }
   .color2 {
-    color: #B89076;
+    /* Normal descriptive text apart from  */
+    /* color: #B89076; */
+    color: var(--command2);
   }
 
   /* Keywords */
   .command {
-    color: #73ABAD;
-    text-shadow: 0 0 5px #73ABAD; 
+    /* Same as cursor just with shadows */
+    /* color: #73ABAD; */
+    color: var(--cursor-color2);
+    /* text-shadow: 0 0 5px #73ABAD;  */
+    text-shadow: 0 0 5px var(--cursor-color2); 
   }
 
-  /* Error */
+  /* Error
   .error {
     color: #B89076;
-  }
+  } */
 
   .white {
     color: #fff;
   }
   .inherit,
   a {
-    color: #9C8394;
+    /* Links */
+    /* color: #9C8394; */
+    color: var(--links);
   }
   a {
     text-decoration: inherit;
   }
   a:hover {
+    /* Hover for links */
+    /* Background same as cursor */
     background: #73ABAD;
     color: #211830;
   }
