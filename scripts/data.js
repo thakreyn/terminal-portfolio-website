@@ -90,7 +90,7 @@ projects = [
     'and mishandling. It utilizes technologies like Flutter, Firebase and Express to create a complete',
     'ecosystem for handling prescriptions.',
     '<br>',
-    'Click the following links to know more: <a href = "" target="_blank">(Github)</a> | <a href = "" target="_blank">(Youtube)</a>',
+    'Click the following links to know more: <a href = "https://github.com/HeveshL/eRx" target="_blank">(Github)</a> | <a href = "https://www.youtube.com/watch?v=yGIn7IrzZzw" target="_blank">(Youtube)</a>',
     "<br>",
     // 2nd Project
     '<span class="command">2. Drive Sink</span>',
