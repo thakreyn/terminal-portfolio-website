@@ -4,36 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/terminal.png">
+    <!-- Icon source : Freepik
+        <a href="https://www.flaticon.com/free-icons/terminal" title="terminal icons">Terminal icons created by Flat Icons - Flaticon</a>
+     -->
     <title>Yash Thakre | Terminal</title>
 
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 
-    <!-- Terminal holds the entered text history -->
-    <div id="terminal">
-        <!-- separator = before -->
-        <a id="before"></a>
-    </div>
-
-    <div id="command-window" onclick="getElementById('textbox').focus()">
-        
-        <textarea name="textbox" id="textbox"
-        onkeypress="typeToLine(this, event)"
-        onkeyup="typeToLine(this,event)"
-    onkeydown="typeToLine(this,event); moveCursor(this.value.length, event)"
-        autofocus
-        ></textarea>
-
-        <!-- Prompt Box that takes input -->
-        <div id="liner">
-            <span id="input"></span><b class="cursor" id="cursor">█</b>
+        <!-- Terminal holds the entered text history -->
+        <div id="terminal">
+            <!-- separator = before -->
+            <a id="before"></a>
         </div>
-
-    </div>
-
-    <script src="scripts/cursor.js"></script> 
-    <script src="scripts/data.js"></script>
-    <script src="scripts/main.js"></script>
+        
+        <div id="command-window" onclick="getElementById('textbox').focus()">
+            
+            <textarea name="textbox" id="textbox"
+            onkeypress="typeToLine(this, event)"
+            onkeyup="typeToLine(this,event)"
+            onkeydown="typeToLine(this,event); moveCursor(this.value.length, event)"
+            autofocus
+            ></textarea>
+            
+            <!-- Prompt Box that takes input -->
+            <div id="liner">
+                <span id="input"></span><b class="cursor" id="cursor">█</b>
+            </div>
+              
+        </div>
+        
+        <script src="scripts/cursor.js"></script> 
+        <script src="scripts/data.js"></script>
+        <script src="scripts/main.js"></script>
 </body>
 </html>

@@ -57,8 +57,8 @@ function router(cmd){
             printLines(help, "color2 margin", 80);
             break;
 
-        case "whois":
-            printLines(whois, "color2 margin", 80)
+        case "about":
+            printLines(about, "color2 margin", 80)
             break;
 
         case "social":
@@ -107,6 +107,33 @@ function router(cmd){
         case "instagram":
             addLine("Opening Instagram...", "color2", 0);
             openNewTab(instagram);
+            break;
+
+        case "resume":
+            addLine("Opening the Resume...","color2",0);
+            openNewTab(resume);
+            break;
+
+        case "spotify":
+            addLine("Opening Spotify...","color2",0);
+            openNewTab(spotify);
+            break;
+
+        case "ls":
+            addLine("So you are a real programmer at heart ❤️. PS. It's just a website!<br>", "color2", 0);
+            break;
+        
+        case "cd":
+            addLine("So you are a real programmer at heart ❤️. PS. It's just a website!<br>", "color2", 0);
+            break;
+
+        case "sudo":
+            addLine("Woah Woah Woah!! Relax!!<br>","color2",0);
+            break;
+
+        case "exit":
+            window.close();
+            addLine("If the window doesn't close, it might be because of a safety feature! Close the tab manually!","color2",0);
             break;
 
         default:

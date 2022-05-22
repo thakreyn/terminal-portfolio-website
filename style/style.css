@@ -2,15 +2,9 @@
     Change colors for:
         1. Background
         2. Normal Text 
-        3. Keywords
+        3. Keywords (commands)
         4. Hover
         5. Banner
-*/
-
-/* 
-  Vs color codes:
-
-
 */
 
 :root{
@@ -35,6 +29,7 @@ body {
     margin: 0;
     padding: 15px 20px;
     min-height: 99%;
+    /* height: 100vh; */
     width: 100%;
     min-width: 550px;
     /* Text color */
@@ -43,6 +38,7 @@ body {
     background: var(--bg2);
     font-family: cursor, monospace;
     overflow-x: hidden;
+    position: relative;
   }
   ::selection {
     /* color: #211830; */
@@ -159,11 +155,6 @@ body {
     /* text-shadow: 0 0 5px #73ABAD;  */
     text-shadow: 0 0 5px var(--cursor-color2); 
   }
-
-  /* Error
-  .error {
-    color: #B89076;
-  } */
 
   .white {
     color: #fff;
