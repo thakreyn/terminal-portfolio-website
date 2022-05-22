@@ -3,6 +3,8 @@
 The terminal is something almost all programmers use. So it makes sense
 to make a portfolio website that looks like a Terminal. 
 
+(Inspired by Forrest Knight's Youtube video)
+
 The entire project is implemented
 using basic web technologies (HTML, CSS and Vanilla JS) which is later hosted on Heroku.
 
